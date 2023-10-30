@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 56px;
+}
+
+h2 {
+  color: #121723;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-left: 24px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+}
+
+main {
+  background-color: #E6E8EC66;
+}
+
+header {
+  border-bottom: 1px solid gray;
+  height: 110px;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 1161px;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin-right: 24px;
+}
+
+.glav {
+  max-width: 1161px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  padding-top: 25px;
+}
+
+.cards {
+  display: flex;
+  max-width: 1161px;
+  margin: 0 auto;
+  column-gap: 24px;
+  margin-bottom: 24px;
+  align-items: baseline;
+}
+
+.container {
+  background-color: white;
+  width: 371px;
+  border-radius: 12px;
+
+}
+
+.imgcr {
+  margin-bottom: 32px;
+}
+
+.cards3 {
+  margin-bottom: 0;
+  padding-bottom: 25px;
+}
+
+.item2 {
+  color: #FFF;
+}
+
+.item3 {
+margin-right: 0;
+}
+
+footer {
+  background: #000;
+  height: 142px;
+  
+} 
+
+.verx {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 50%;
+  max-width: 1161px;
+}
+
+.niz {
+  border-top: 1px solid gray;
+  margin: 0 auto;
+  max-width: 1161px;
+  padding-top: 18px;
+  text-align: center;
+  color: #A1A6B4;
+  font-family: "Anonymous Pro", sans-serif;
+}
