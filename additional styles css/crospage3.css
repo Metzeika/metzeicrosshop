@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    border-bottom: 1px solid gray;
+    height: 110px;
+  }
+
+  .container1 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1161px;
+  }
+  .nav-items {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-right: 24px;
+  }
