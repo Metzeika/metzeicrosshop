@@ -9,10 +9,6 @@
   src: url(fonts/AnonymousPro-Regular.ttf);
 }
 
-@media screen and (max-width: 430px) {
-  
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -99,7 +95,11 @@ header {
   background-color: white;
   width: 371px;
   border-radius: 12px;
+  transition: 0.5s;
+}
 
+.container:hover {
+  transform: scale(1.1);
 }
 
 .imgcr {
