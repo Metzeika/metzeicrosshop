@@ -3,6 +3,10 @@
     padding: 0;
   }
 
+  main {
+    background-color: #E6E8EC66;
+  }
+
   header {
     border-bottom: 1px solid gray;
     height: 110px;
@@ -28,4 +32,65 @@
     font-weight: 700;
     color: #000;
     margin-right: 24px;
+  }
+
+  main {
+    display: flex;
+    padding: 0px 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+  }
+
+  .main_content {
+    padding: 32px;
+  }
+
+  .bigcros {
+    background-color: #FFF;
+    width: 1140px;
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .crosimg {
+
+  }
+
+  .item2 {
+    color: #FFF;
+  }
+  
+  .item3 {
+  margin-right: 0;
+  }
+  
+  footer {
+    background: #000;
+    height: 142px;
+    
+  } 
+  
+  .verx {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 50%;
+    max-width: 1161px;
+  }
+  
+  .niz {
+    border-top: 1px solid gray;
+    margin: 0 auto;
+    max-width: 1161px;
+    padding-top: 18px;
+    text-align: center;
+    color: #A1A6B4;
+    font-family: "Anonymous Pro", sans-serif;
   }
