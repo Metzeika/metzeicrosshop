@@ -56,9 +56,60 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
+    border-radius: 50px;
   }
 
   .crosimg {
+    height: 600px;
+    align-self: stretch;
+    width: 100%;
+  }
+
+  .croinf {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+
+
+  .crosinform {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+
+
+  .block1 {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; 
+  }
+
+  .block2 {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+  }
+
+  .block3 {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 506px;
+    height: 840px;
 
   }
 
