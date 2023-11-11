@@ -113,7 +113,9 @@
   .block4 {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    width: 506px;
+    height: auto;
+    justify-content: space-between;
   }
 
   .h2_1 {
