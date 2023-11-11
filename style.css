@@ -111,12 +111,14 @@ main {
   background-color: white;
   width: 371px;
   border-radius: 12px;
-  /* transition: 0.5s; */  
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.5s; 
 }
 
-/* .container:hover {     увеличение при наведении, жалко нельзя(((((
-  transform: scale(1.1);
-} */
+.container:hover {     
+  /* transform: scale(1.1); не обращайте на это внимание, это нужно :) */ 
+  transform: translateY(-10px);
+}
 
 .imgcr {
   margin-bottom: 32px;
