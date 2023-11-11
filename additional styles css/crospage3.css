@@ -95,11 +95,12 @@
   }
 
   .croinform {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  justify-content: space-between;
-  width: 1044px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1044px;
   }
 
   .block3 {
