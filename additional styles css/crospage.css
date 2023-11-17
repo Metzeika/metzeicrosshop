@@ -34,7 +34,7 @@
     margin: 0 auto;
     justify-content: space-between;
     height: 100%;
-    max-width: 1161px;
+    max-width: 1140px;
   }
 
   .nav-items {
@@ -61,8 +61,11 @@
   }
 
   .main_content {
-    padding: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     flex-direction: row;
+    width: 1140px;
+    margin: 0 auto;
   }
 
   .bigcros{
@@ -74,7 +77,7 @@
     border-radius: 50px;
   }
 
-  .crosname {}
+  /* .crosname {} */
 
   .block1 {
     color: var(--black);
@@ -82,9 +85,9 @@
   }
   
 
-  .block2 {
+  /* .block2 {
 
-  }
+  } */
 
   .crosinform {
     display: flex;
@@ -188,13 +191,13 @@
     margin: 0 auto;
     justify-content: space-between;
     height: 50%;
-    max-width: 1161px;
+    max-width: 1140px;
   }
 
   .niz {
     border-top: 1px solid gray;
     margin: 0 auto;
-    max-width: 1161px;
+    max-width: 1140px;
     padding-top: 18px;
     text-align: center;
     color: #A1A6B4;
