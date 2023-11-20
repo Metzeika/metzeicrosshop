@@ -1,5 +1,9 @@
 @media screen and (max-width: 376px) {
 
+    h2 {
+        font-size: 32px;
+    }
+
     /* адаптация хедера */
 
     header {
@@ -13,6 +17,34 @@
         gap: 24px;
     }
 
+    /* адаптация мейна */
+
+    .main {
+        padding: 0 16px;
+    }
+
+    .main_content_cros {
+        max-width: 343px;
+    }
+
+    .container {
+        width: 343px;
+    }
+
+    .imgcr  {
+        width: 343px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 343px;
+    }
+
+    .crosct {
+        max-width: 343px;
+    }
     /* адаптация футера */
 
     footer {
