@@ -159,6 +159,7 @@ footer {
 .niz {
   border-top: 1px solid gray;
   margin: 0 auto;
+  height: 50%;
   max-width: 1161px;
   padding-top: 18px;
   text-align: center;
