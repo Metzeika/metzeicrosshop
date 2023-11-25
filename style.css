@@ -76,10 +76,21 @@ header {
 
 }
 
+.navlogin {
+  display: flex;
+  flex-direction: row;
+}
+
+.navsvg {
+  width: 60px;
+  height: 30px;
+}
+
 .nav-items {
   display: flex;
   list-style: none;
 }
+
 
 .nav-item {
   text-decoration: none;
@@ -88,6 +99,10 @@ header {
   font-weight: 700;
   color: #000;
   margin-right: 24px;
+}
+
+.hed {
+  margin-right: 10px;
 }
 
 /* конец хедера */
