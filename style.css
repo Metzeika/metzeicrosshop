@@ -69,10 +69,28 @@ header {
   max-width: 1161px;
 }
 
+.login {
+  font-family: Anonymous Pro;
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
+.navlogin {
+  display: flex;
+  flex-direction: row;
+}
+
+.navsvg {
+  width: 40px;
+  height: 30px;
+}
+
 .nav-items {
   display: flex;
   list-style: none;
 }
+
 
 .nav-item {
   text-decoration: none;
@@ -81,6 +99,9 @@ header {
   font-weight: 700;
   color: #000;
   margin-right: 24px;
+}
+
+.hed {
 }
 
 /* конец хедера */
