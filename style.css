@@ -69,6 +69,13 @@ header {
   max-width: 1161px;
 }
 
+.login {
+  font-family: Anonymous Pro;
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
 .nav-items {
   display: flex;
   list-style: none;
